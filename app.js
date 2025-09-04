@@ -1,4 +1,4 @@
-const encoded = "aHR0cDovLzE4NS4xMzcuMTIyLjEzNzozMDAw";
+const encoded = "aHR0cHM6Ly8xODUuMTM3LjEyMi4xMzc=";
 const API_URL = atob(encoded);
 const form = document.getElementById("userForm");
 const userList = document.getElementById("userList");
