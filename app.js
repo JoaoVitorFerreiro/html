@@ -1,6 +1,5 @@
-// ⚠️ Ajuste esse IP para o da sua VPS
-const API_URL = "http://185.137.122.137:3000";
-
+const encoded = "aHR0cDovLzE4NS4xMzcuMTIyLjEzNzozMDAw";
+const API_URL = atob(encoded);
 const form = document.getElementById("userForm");
 const userList = document.getElementById("userList");
 
